@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "background" : {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "name": "BaiduGou",
+    "description": "Show search results of baidu when using google",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+       "declarativeContent"
+    ],
+    "page_action": {
+        "default_icon": "res/icon.png",
+        "default_popup": "index.html"
+    }
+
+}
